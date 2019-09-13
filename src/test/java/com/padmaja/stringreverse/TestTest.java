@@ -1,9 +1,11 @@
 package com.padmaja.stringreverse;
-//import static java.lang.System.out;
-import java.lang.String;
 
-public class Test {
-    public static void main(String[] args){
+import static org.junit.jupiter.api.Assertions.*;
+
+class TestTest {
+
+    @org.junit.jupiter.api.Test
+    public void test() {
         BankAccount b1 = new BankAccount();
         b1.acctNumber = "0023490";
         b1.acctType = 5;
@@ -13,15 +15,13 @@ public class Test {
         BankAccount b3 = new BankAccount();
         b3.acctNumber = "11223344";
         b3.acctType = 3;
-        System.out.println(b1.equals(b2));
+        boolean RESULT = (b1.equals(b2));
+        System.out.println(RESULT);
+        boolean Result2 = b2.equals(b3);
         System.out.println(b2.equals(b3));
-        System.out.println(b1.equals(new String("abc")));
+        boolean Result3 = b1.equals(new String("abc"));
+        System.out.println(Result3);
 
 
     }
-
 }
-
-
-
-
