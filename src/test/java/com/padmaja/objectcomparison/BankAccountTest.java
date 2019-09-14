@@ -2,7 +2,7 @@ package com.padmaja.objectcomparison;
 
 import static org.junit.Assert.assertEquals;
 
-class TestTest {
+class BankAccountTest {
 
     @org.junit.jupiter.api.Test
     public void test() {
