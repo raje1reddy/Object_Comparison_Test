@@ -1,9 +1,8 @@
-package com.padmaja.stringreverse;
+package com.padmaja.objectcomparison;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.jupiter.api.Assertions.*;
 
-class TestTest {
+class BankAccountTest {
 
     @org.junit.jupiter.api.Test
     public void test() {
@@ -25,7 +24,6 @@ class TestTest {
         System.out.println(b2.equals(b3));
         boolean expResults = true;
         assertEquals(expResults, Result2);
-
 
         boolean Result3 = b1.equals(new String("abc"));
         System.out.println(Result3);
