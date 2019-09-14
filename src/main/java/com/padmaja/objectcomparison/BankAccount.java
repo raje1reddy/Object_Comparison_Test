@@ -1,4 +1,4 @@
-package com.padmaja.stringreverse;
+package com.padmaja.objectcomparison;
 import java.lang.String;
 
 public class BankAccount {
