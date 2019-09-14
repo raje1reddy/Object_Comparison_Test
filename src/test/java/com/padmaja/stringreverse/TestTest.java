@@ -1,5 +1,6 @@
 package com.padmaja.stringreverse;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TestTest {
@@ -17,10 +18,19 @@ class TestTest {
         b3.acctType = 3;
         boolean RESULT = (b1.equals(b2));
         System.out.println(RESULT);
+        boolean expResult = false;
+        assertEquals(expResult, RESULT);
+
         boolean Result2 = b2.equals(b3);
         System.out.println(b2.equals(b3));
+        boolean expResults = true;
+        assertEquals(expResults, Result2);
+
+
         boolean Result3 = b1.equals(new String("abc"));
         System.out.println(Result3);
+        boolean expresult = false;
+        assertEquals(expresult, Result3);;
 
 
     }
