@@ -1,11 +1,13 @@
 package com.padmaja.objectcomparison;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
-class BankAccountTest {
+import static org.junit.Assert.*;
 
-    @org.junit.jupiter.api.Test
-    public void test() {
+public class BankAccountTest {
+
+    @Test
+    public void test1() {
         BankAccount b1 = new BankAccount();
         b1.acctNumber = "0023490";
         b1.acctType = 5;
