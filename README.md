@@ -2,7 +2,13 @@
 Comparing objects of a user defined class
 
 travis link
-https://travis-ci.org/raje1reddy/Object_Comparison_Test
+[![Build Status](https://travis-ci.org/raje1reddy/Object_Comparison_Test.svg?branch=master)]
+(https://travis-ci.org/raje1reddy/Object_Comparison_Test)
 
 code coverage link
-https://codecov.io/gh/raje1reddy/Object_Comparison_Test
+[![codecov](https://codecov.io/gh/raje1reddy/Object_Comparison_Test/branch/master/graph/badge.svg)]
+(https://codecov.io/gh/raje1reddy/Object_Comparison_Test)
+
+
+
+
